@@ -1,0 +1,44 @@
+Gandalf,Mage,40,20,10
+Dracula,Necromancer,30,25,15
+Thor,Viking,50,30,20
+Medusa,Beast,35,35,25
+Merlin,Mage,45,25,15
+Frankenstein,Necromancer,25,30,30
+Lagertha,Viking,40,35,20
+Kraken,Beast,55,40,30
+Athena,Mage,35,25,20
+Zombie,Necromancer,20,30,35
+Odin,Viking,60,35,25
+Dragon,Beast,70,50,40
+The conqueror Jack,Mage,55,45,25
+Queen of Shadows,Necromancer,40,45,30
+Bjorn the Brave,Viking,70,40,30
+Cerberus,Beast,80,60,50
+Sorceress Morgana,Mage,50,35,20
+Mad Scientist Igor,Necromancer,30,40,45
+Ragnar the Fierce,Viking,75,50,35
+Hydra,Beast,90,70,55
+Valeria the Enchantress,Mage,45,40,25
+Captain Hook,Necromancer,35,45,40
+Erik the Red,Viking,80,45,40
+Phoenix,Beast,100,80,60
+The mysterious Masked Magician,Mage,60,50,30
+Mistress of Shadows and Deception,Necromancer,50,60,40
+Ivar the Boneless, Viking, 90, 55, 45
+Chimera, Beast, 110, 90, 70
+Luna the Moonlit Mage, Mage, 65, 55, 35
+Baron von Bloodsucker, Necromancer, 40, 55, 60
+Leif the Lucky, Viking, 85, 50, 45
+Thunderbird, Beast, 120, 100, 80
+The Enigmatic Enchantress, Mage, 70, 60, 40
+Blackbeard the Cursed, Necromancer, 45, 60, 55
+Astrid the Fearless, Viking, 95, 55, 50
+Krampus, Beast, 130, 110, 90
+Midnight Mysteria, Mage, 75, 65, 45
+Countess Vampira, Necromancer, 50, 65, 70
+Rollo the Mighty, Viking, 100, 60, 55
+Manticore, Beast, 140, 120, 100
+Mystic Magellan, Mage, 80, 70, 50
+Lord Lich, Necromancer, 55, 70, 75
+Sigrid the Swift, Viking, 105, 65, 60
+Serpent King, Beast, 150, 130, 110
