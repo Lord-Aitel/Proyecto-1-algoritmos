@@ -29,6 +29,43 @@ typedef struct {
     int puntosVida;
 } Jugador;
 
+void Robar(Jugador *jugador) {
+    // Iterar sobre la baraja del jugador
+    int i,j;
+	for (i = 0; i < 15; i++) {
+        if (jugador->mazo[i] != NULL) {
+            Cartas_Juego *cartaRobada = jugador->baraja[i];
+            // Verificar si la carta ya está en la mano del jugador
+            int repetida = 0;
+            for (j = 0; j < jugador->cartas; j++) {
+                if (jugador->mano[j] != NULL) {
+                    if (strcmp(jugador->mano[j]->Nombre, cartaRobada->Nombre) == 0) {
+                        repetida = 1;
+                        break;  // Sal del bucle interno si encuentras una carta repetida
+                    }
+                } else if (jugador->mano[j] != NULL && jugador->mano[j]->Vida <= 0) {
+                    // Reemplaza la carta si está en la mano y su Vida es menor o igual a 0
+                    jugador->mano[j] = cartaRobada;
+                    return;  // Sal de la función después de reemplazar
+                }
+            }
+
+            if (!repetida) {
+                // Agregar la carta robada a la mano del jugador
+                if (jugador->cartas < 15) {
+                    jugador->mano[jugador->cartas] = cartaRobada;
+                    jugador->cartas++;
+                }
+                break;  // Sal del bucle externo si agregaste una carta
+            }
+        }
+    }
+    
+    if (jugador->cartas == 15) {
+        printf("No quedan cartas en la baraja del jugador para robar o todas las cartas disponibles ya están en la mano del jugador.\n");
+    }
+}
+
 void llenarMazoInicial(Mazo* mazo, Carta* cartas) {
     mazo->numCartas = 15;
     int i;
